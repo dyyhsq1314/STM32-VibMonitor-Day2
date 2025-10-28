@@ -1,1 +1,4 @@
-Try to find a good job
+实现数据采集第一版
+4 kHz DMA 循环采样 → I2C1_RX + Normal 模式，无缝重启
+实时 RMS 计算 → 手动平方和 + sqrtf，0→1.5 g 跳变验证活性
+LED 持续心跳 → 回调第一行翻转，肉眼可见中断活/死 但是算法不够准确 后续加以优化
